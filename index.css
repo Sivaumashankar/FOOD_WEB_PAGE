@@ -1,0 +1,80 @@
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+     
+}
+.hero_image{
+  background: url(./images/img2.jpg)no-repeat;
+  -webkit-background-size:cover ;
+  background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+.zero{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.code .post{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+.code button{
+width: 20%;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: #00bab1;
+color: white;
+padding: .6rem;
+border: none;
+border-radius: .3rem;
+margin-top: 1rem;
+margin: 1rem auto 0rem;
+}
+.code{
+    text-align: center;
+}
+.zero span {
+    margin-left: 5rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+.siva{
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.uma{
+    float: left;
+    width: 32%;
+    margin-left: .5rem;
+}
+.img{
+    max-width: 100%;
+}
+.uma:first-of-type{
+    margin-left: 0;
+}
+@media screen and(max-width:700px){
+    .uma{
+        width:100%;
+        float: left;
+    }
+}
